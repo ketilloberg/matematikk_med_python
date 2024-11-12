@@ -1,0 +1,6 @@
+Oppgave:
+- Lag ulike variabler, og bruk print () for å se med i konsollen
+- Lag minst to variabler med tall, og print (variabel1 + variabel2)
+- Lag to variabler, var1 og var 2, som består av en tekst (eller str 	  som Python kaller det):
+	- Leg en tredje variabel, var3 = var1 + var2
+	- Print ut var3.

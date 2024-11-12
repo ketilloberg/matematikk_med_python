@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mitt Dokument</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #0073e6;
+        }
+        iframe {
+            border: none;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="Introduksjon.html">Introduksjon</a></li>
+            <li><a href="Variabler.html">Variabler</a></li>
+            <li><a href="Regning med variabler.html">Aritmagon</a></li>
+            <li><a href="Lister.html">Lister</a></li>
+        </ul>
+    </nav>
+    <h1>Variabler i Python:</h1>
+    <p>Se videoforelesningen, gjør oppgavene i trinket (interaktiv nettside ligger under)</p>
+    
+   
+    <video width="640" height="360" controls>
+        <source src="Videoer/variabler.mp4" type="video/mp4">
+    </video>
+    <p>Oppgave 1:</p>
+        <p>- Lag to variabler: andre_tall = 8 og svar = 20</p>
+        <p>- Lag variabelen første_tall slik at:</p>
+        <p>........første_tall + andre_tall = svar</p>
+        <p>........første_tall - andre_tall = svar</p>
+        <p>........første_tall * andre_tall = svar</p>
+        <p>........første_tall / andre_tall = svar</p>
+        <p></p>
+        <p>Prøv å bare bruk variabler når du skal bestemmer første_tall</p>
+        <p>Eksempel: første_tall = svar + andre_tall</p>
+
+
+    <!-- Innebygd Trinket.io prosjekt -->
+    <iframe src="https://trinket.io/embed/python3" width="100%" height="500" allowfullscreen></iframe>
+    <h1>Oppsummering av video</h1>
+    <h2>Variabler:</h2>
+    <p>Variabler brukes for:</p>
+    <p>- Å gi navn til ulike verdier og elementer i koden.</p>
+    <p>- Å ha muligheten til å justere verdier som går igjen flere steder i koden</p>
+    <p>Når du kjører programmet ditt vil en variabel som defineres flere ganger endres underveis.</p>
+    <p>Eksempel:</p>
+    <p><strong>Input:</strong></p>
+    <p>mitt_tall = 12</p>
+    <p>print ('første gang:',mitt_tall)</p>
+    <p>mitt_tall = 9</p>
+    <p>print ('andre gang:',mitt_tall)</p>
+    <p><strong>Output:</strong></p>
+    <p>første gang: 12</p>
+    <p>andre gang: 9</p>
+    <h2>Regning med variabler:</h2>
+    <p>I python kan vi gi variabler tallverdier.</p>
+    <p>Når flere variabler består av heltall (int) eller desimaltall (float) kan vi regne med variablene. Du kan sette opp regnestykke med variablene, og endre verdiene på dem for å gjøre samme regneoperasjon med ulike verdier. </p>
+    <p>Eksempel:</p>
+    <p><strong>Input:</strong></p>
+    <p>a = 3</p>
+    <p>b = 7</p>
+    <p>print ('a + b = ',a + b)</p>
+    <p>b = 9</p>
+    <p>print ('a + b = ', a + b)</p>
+    <p><strong>Output:</strong></p>
+    <p>a + b = 10</p>
+    <p>a + b = 12</p>
+    <p>Legg merke til forskjellen mellom 'a + b =' og a + b</p>
+    <p>Når anførselstengene står mellom tolker Python dette som en string. Dersom vi ikke hadde hatt med 'a + b =', ville vi kun fått oppgitt svaret i konsollen.</p>
+    <p><strong>Input:</strong></p>
+    <p>a = 3</p>
+    <p>b = 5</p>
+    <p>print (a + b)</p>
+    <p><strong>Output:</strong></p>
+    <p>8</p>
+    <p>.</p>
+    <p>.</p>
+    <p>Oppgavene på denne siden er det nettopp dette vi skal jobbe med:</p>
+    <p>Oppgaven går ut på at variabelen <em><strong>svar</strong></em> og <em><strong>andre_tall</strong></em> skal ha samme verdi, mens <em><strong>første_tall</strong></em> må endres. </p>
+    <p>I første oppgave må <em><strong>andre_tall</strong></em> bestemmes ved at <em><strong>første_tall + andre_tall = svar</strong></em></p>
+    <p>I andre oppgave må <em><strong>andre_tall</strong></em> bestemmes ved at <em><strong>første_tall - andre_tall = svar</strong></em></p>
+    <p> etc (se oppgave over)</p>
+    <p>Løsningsforslag finner du i lenken "Løsningsforslag" øverst på siden.</p>
+    <script>
+    window.onload = function() {
+        window.scrollTo(0, 0);
+    };
+    </script>
+</body>
+</html>

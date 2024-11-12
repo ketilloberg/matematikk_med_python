@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mitt Dokument</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #0073e6;
+        }
+        iframe {
+            border: none;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="Introduksjon.html">Introduksjon</a></li>
+            <li><a href="Variabler.html">Variabler</a></li>
+            <li><a href="Regning med variabler.html">Regning med variabler</a></li>
+            <li><a href="Lister.html">Lister</a></li>
+        </ul>
+    </nav>
+    <h1>Introduksjon Python:</h1>
+    <p>Se videoforelesningen, gjør oppgavene i trinket (interaktiv nettside ligger under)</p>
+    
+   
+    <video width="640" height="360" controls>
+        <source src="Videoer/RegningMedVariabler.mp4" type="video/mp4">
+    </video>
+    <p>Oppgave 1:</p>
+        <p>Lage variabeler og print dem ut</p>
+            <p>Dersom du har en variabel hvor du bruker anførselstegn '':</p>
+            <p>Lag en ny variabel med tekst</p>
+            <p>Lag en tredje variabel hvor du legger sammen de to variablene</p>
+            <p>Gjør det samme bare la variablene være tall</p>
+
+    <!-- Innebygd Trinket.io prosjekt -->
+    <iframe src="https://trinket.io/embed/python3" width="100%" height="500" allowfullscreen></iframe>
+    
+    <p>Du kan også legge til mer tekst her om du vil, og dokumentet vil automatisk oppdatere seg når du lagrer endringer.</p>
+    <script>
+    window.onload = function() {
+        window.scrollTo(0, 0);
+    };
+    </script>
+</body>
+</html>

@@ -42,7 +42,7 @@
     <p>Her kommer teksten 2:</p>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
-            pull('/Tekster/Oppgave.txt')
+            <embed src="/Tekster/Oppgave.txt" widht ="600" height="400" type="text/plain">
             .then(response => {
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);

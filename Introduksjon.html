@@ -39,16 +39,14 @@
     <video width="640" height="360" controls>
         <source src="videoer/testvideo.mp4" type="video/mp4">
     </video>
-   <p><strong>Oppgave 1 - Test ut print():</strong></p>
-        <p>- Skriv ut en setning, et heltall og et deimaltall</p>
-    <p><strong>Oppgave 2 - :</strong> </p>
-    <p>- Lag variabelene navn, alder og interesse</p>
-    <p>- Print ut variablene slik at de står på hver sin linje, med en beskrivelse av variabelen.</p>
-    <p>Eksempel: </p>
-    <p>Navn: Jonas</p>
-    <p>Alder: 12 år</p>
-    <p>Interesse: Fotball</p>
-    <p>OBS: Her er 12 år en variabel.</p>
+   <script>
+        fetch('Tekster/Oppgave.txt')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('text-content').textContent = data;
+        })
+        .catch(error => console.error('Kunne ikke laste tekstfil:', error));
+    </script>
 
     
 

@@ -40,22 +40,7 @@
         <source src="videoer/testvideo.mp4" type="video/mp4">
     </video>
     <p>Her kommer teksten 2:</p>
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            <embed src="/Tekster/Oppgave.txt" widht ="600" height="400" type="text/plain">
-            .then(response => {
-            if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
-            }
-            return response.text();
-        })
-        .then(data => {
-            document.getElementById('text-content').textContent = data;
-        })
-        .catch(error => console.error('Kunne ikke laste tekstfil:', error));
-    });
-    </script>
-    
+    <embed src="/Tekster/Oppgave.txt" widht ="600" height="400" type="text/plain"></embed>
     <!-- Innebygd Trinket.io prosjekt -->
     <iframe src="https://trinket.io/embed/python3" width="100%" height="500" allowfullscreen></iframe>
 

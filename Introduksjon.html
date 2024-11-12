@@ -41,7 +41,7 @@
     </video>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
-            fetch('Tekster/Oppgave.txt')
+            fetch('/Tekster/Oppgave.txt')
             .then(response => {
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);

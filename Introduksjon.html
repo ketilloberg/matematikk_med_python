@@ -39,17 +39,22 @@
     <video width="640" height="360" controls>
         <source src="videoer/testvideo.mp4" type="video/mp4">
     </video>
-   <script>
-        fetch('Tekster/Oppgave.txt')
-        .then(response => response.text())
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            fetch('Tekster/Oppgave.txt')
+            .then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            return response.text();
+        })
         .then(data => {
             document.getElementById('text-content').textContent = data;
         })
         .catch(error => console.error('Kunne ikke laste tekstfil:', error));
+    });
     </script>
-
     
-
     <!-- Innebygd Trinket.io prosjekt -->
     <iframe src="https://trinket.io/embed/python3" width="100%" height="500" allowfullscreen></iframe>
 

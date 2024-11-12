@@ -42,7 +42,7 @@
     <p>Her kommer teksten 2:</p>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
-            $ git fetch('/Tekster/Oppgave.txt')
+            pull('/Tekster/Oppgave.txt')
             .then(response => {
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
